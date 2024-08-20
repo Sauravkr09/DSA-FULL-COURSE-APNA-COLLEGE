@@ -11,13 +11,13 @@ public class Test {
 
         // int x = 200, y=50, z = 100;
         // if(x> y && y>z){
-        //     System.out.println("hello");
+        // System.out.println("hello");
         // }
         // if(z>y && z<x){
-        //     System.out.println("java");
+        // System.out.println("java");
         // }
         // if((y+200) < x && (y+150) < x){
-        //     System.out.println("Hello java");
+        // System.out.println("Hello java");
         // }
 
         // int x , y, z;
@@ -33,14 +33,19 @@ public class Test {
 
         // System.out.println(exp);
 
-        int x = 10 ; y = 5;
+        int x = 10;
+        y = 5;
 
-        int exp1 = (y *(x / y + x / y));
+        int exp1 = (y * (x / y + x / y));
         int exp2 = (y * x / y + y * x / y);
 
         System.out.println(exp1);
         System.out.println(exp2);
 
+        // git add .
+        // git commit -m "your message"
+        // git push
+
     }
-    
+
 }
