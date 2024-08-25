@@ -27,3 +27,7 @@ public class Pair1 {
     }
     
 }
+
+//git add .
+// git commit -m "your message"
+// git push
