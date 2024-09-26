@@ -129,6 +129,7 @@ public class TopLevel {
         }
         return root;
     }
+    
 
     public static void main(String[] args) {
         Node root = new Node(1);
@@ -142,7 +143,8 @@ public class TopLevel {
         // topView(root); // This should print the top view of the binary tree.
         // int k = 2;
         // KLevel(root, 1, k);
-        int n1 = 4, n2 = 7;
-        System.out.println(lca2(root, n1, n2).data);
+        // int n1 = 4, n2 = 7;
+        // System.out.println(lca2(root, n1, n2).data);
+        int n1 = 4, n2 = 6;
     }
 }
