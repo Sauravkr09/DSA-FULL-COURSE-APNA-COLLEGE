@@ -1,11 +1,11 @@
 public class Pattern {
     public static void main(String [] args){
-        // for(int i =1; i<=5; i++){
-        //     for(int j =1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i =1; i<=5; i++){
+            for(int j =1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         // reverse pattern
         // int n =4;
@@ -27,17 +27,17 @@ public class Pattern {
         // }
        
         // CHARACTER print 
-        int n = 5;
-;
-        char ch = 'A';
-        for(int i=1; i<=5; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print(ch);
-                ch++;
+//         int n = 5;
+// ;
+//         char ch = 'A';
+//         for(int i=1; i<=5; i++){
+//             for(int j=1; j<=i; j++){
+//                 System.out.print(ch);
+//                 ch++;
 
-            }
-            System.out.println();
-        }
+//             }
+//             System.out.println();
+//         }
     }
     
 }
